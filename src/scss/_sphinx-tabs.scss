@@ -10,7 +10,7 @@
       &.item {
         color: #000 !important;
         font-size: 0.9em;
-        border-radius: 2px !important;
+        border-radius: 0 !important;
         border-color: #E5E5E5 !important;
       }
     }
@@ -23,6 +23,16 @@
       &.sphinx-tab {
         border-radius: 0;
         border-color: #E5E5E5 !important;
+
+        &.segment, 
+        &.segments .segment {
+          font-size: inherit;
+        }
+        &.segment {
+          &[class*="bottom attached"] {
+            border-radius: 0;
+          }
+        }
       }
     // }
   }
