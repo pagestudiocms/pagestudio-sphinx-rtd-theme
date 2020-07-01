@@ -12,6 +12,16 @@ PageStudio is a content management system (CMS) featuring an easy to use drag an
 
 ----
 
+## Heading 2 
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+----
+
 ## Get Entry
 
 Show detail information on a particular entry
